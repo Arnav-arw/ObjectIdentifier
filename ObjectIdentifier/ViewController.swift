@@ -20,7 +20,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     private let label: UILabel = {
         let label = UILabel()
         label.textAlignment = .center
-        label.text = "Select Image"
+        label.text = "Pick Image"
         label.numberOfLines = 0
         return label
     }()
