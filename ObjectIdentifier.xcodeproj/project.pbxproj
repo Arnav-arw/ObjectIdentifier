@@ -13,6 +13,8 @@
 		6A406ED827D75D32000D531A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A406ED627D75D32000D531A /* Main.storyboard */; };
 		6A406EDA27D75D33000D531A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A406ED927D75D33000D531A /* Assets.xcassets */; };
 		6A406EDD27D75D33000D531A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A406EDB27D75D33000D531A /* LaunchScreen.storyboard */; };
+		6A406EE527D75D67000D531A /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6A406EE427D75D67000D531A /* Resnet50.mlmodel */; };
+		6A406EE727D75DAF000D531A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A406EE627D75DAF000D531A /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6A406ED927D75D33000D531A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A406EDC27D75D33000D531A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A406EDE27D75D33000D531A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A406EE427D75D67000D531A /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		6A406EE627D75DAF000D531A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				6A406ED927D75D33000D531A /* Assets.xcassets */,
 				6A406EDB27D75D33000D531A /* LaunchScreen.storyboard */,
 				6A406EDE27D75D33000D531A /* Info.plist */,
+				6A406EE427D75D67000D531A /* Resnet50.mlmodel */,
+				6A406EE627D75DAF000D531A /* Extensions.swift */,
 			);
 			path = ObjectIdentifier;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A406EE727D75DAF000D531A /* Extensions.swift in Sources */,
 				6A406ED527D75D32000D531A /* ViewController.swift in Sources */,
 				6A406ED127D75D32000D531A /* AppDelegate.swift in Sources */,
+				6A406EE527D75D67000D531A /* Resnet50.mlmodel in Sources */,
 				6A406ED327D75D32000D531A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
